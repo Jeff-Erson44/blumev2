@@ -1,0 +1,10 @@
+@mixin title {
+    font-size: 5rem;
+    line-height: 5.5rem;
+    font-weight: 500;
+    font-family: 'Helvetica';
+    @media screen and (max-width: 475px) {
+        font-size: 2.25rem;
+        line-height: 2.75rem;
+    }
+}

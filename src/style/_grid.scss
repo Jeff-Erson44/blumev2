@@ -1,0 +1,35 @@
+$mobile-max-width: 475px;
+$desktop-max-width: 1440px;
+
+$mobile-columns: 4;
+$mobile-margin: 32px;
+$mobile-gutter: 16px;
+
+$desktop-columns: 12;
+$desktop-margin: 80px;
+$desktop-gutter: 24px;
+
+$desktop-large-margin: 100px;
+$desktop-large-gutter: 24px;
+
+// Grille mobile
+.grid {
+    display: grid;
+    grid-template-columns: repeat(#{$mobile-columns}, 1fr);
+    grid-gap: $mobile-gutter;
+    margin: 0 $mobile-margin;
+
+    // Desktop : max 1440px
+    @media screen and (min-width: ($mobile-max-width + 1)) and (max-width: $desktop-max-width) {
+        grid-template-columns: repeat(#{$desktop-columns}, 1fr);
+        grid-gap: $desktop-gutter;
+        margin: 0 $desktop-margin;
+    }
+
+    // Desktop : 1440px et plus
+    @media screen and (min-width: ($desktop-max-width + 1)) {
+        grid-template-columns: repeat(#{$desktop-columns}, 1fr);
+        grid-gap: $desktop-large-gutter;
+        margin : 0 $desktop-large-margin;
+    }
+}

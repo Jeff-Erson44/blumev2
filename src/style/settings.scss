@@ -1,0 +1,9 @@
+@forward './_reset.scss';
+@forward './_grid.scss';
+@forward './_variable.scss';
+
+@import url('https://fonts.cdnfonts.com/css/helvetica-neue-55?styles=16015,16020,15990,15991,30124,30133');
+
+body{
+    font-family: 'Helvetica';
+}
