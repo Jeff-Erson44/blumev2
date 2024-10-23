@@ -14,7 +14,7 @@ export const Card = () => {
                                 src={card.src}
                                 alt=""
                                 width={195}
-                                height={140}
+                                height={143}
                                 className='image__card'
                             />
                         </div>

@@ -9,8 +9,7 @@
         grid-column: span 3;
     }
     &__menu {
-        grid-column: 1 / 5;
-        
+        grid-column: 1 / 5;        
         ul {
             li {
                 margin-bottom: 8px;
@@ -22,5 +21,24 @@
         grid-column: span 8;
         display: flex;
         justify-content: space-around;
+    }
+}
+
+@media screen and (max-width: 475px){
+    .containerLatest{
+        h1{
+            grid-column: span 4;
+        }
+        &__menu{
+            grid-column: 1/-1;
+            ul{
+                display: flex;
+                justify-content: space-between;
+            }
+        }
+        &__blog{
+            overflow-y: scroll;
+            gap: 60px;
+        }
     }
 }

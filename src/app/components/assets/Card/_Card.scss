@@ -20,4 +20,11 @@
     }
 }
 
-
+@media screen and (max-width: 475px){
+    .containerCard{
+            &__image{
+            .image__card{
+            }
+        }
+    }
+}
