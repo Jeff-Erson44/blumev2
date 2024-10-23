@@ -1,4 +1,5 @@
-import './Navbar.scss'
+import { Button } from '../Button/Button'
+import './_Navbar.scss'
 import Link from "next/link"
 
 export const Navbar = () =>{
@@ -12,9 +13,9 @@ export const Navbar = () =>{
                     </Link>
                 </li>
                 <li>
-                    <a>
-                        Book a demo
-                    </a>
+                    <Button 
+                        text="book a demo"
+                    />
                 </li>
             </ul>
         </nav>

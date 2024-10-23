@@ -1,0 +1,37 @@
+@import '../../../style/settings.scss';
+
+.containerHero{
+    &__highlighText{
+        margin-top: 100px;
+        grid-column: 1/7;
+        gap: 36px;
+        display: flex;
+        flex-direction: column;
+        h1{
+            @include title;
+        }
+        h2{
+            font-weight: 500;
+            line-height: 24px;
+        }
+    }
+    &__image{
+        grid-column: 8/12;
+    }
+}
+
+@media screen and ( max-width: 475px){
+    .containerHero{
+        &__highlighText{
+            gap: 50px;
+            grid-column: 1/-1;
+            h2{
+                font-size: 0.68;
+                line-height: 20px;
+            }
+        }
+        &__image{
+            display: none;
+        }
+    }
+}
