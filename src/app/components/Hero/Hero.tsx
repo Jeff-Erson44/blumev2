@@ -6,7 +6,7 @@ export const Hero = () => {
     return(
         <>
             <div className='containerHero__highlighText'>
-                <h1>l'authenticité <br />au service du luxe</h1>
+                <h1>l&apos;authenticité <br />au service du luxe</h1>
                 <h2>Blume < br/>
                 Sécurisez et authentifiez vos produits de luxe de seconde main grâce à notre solution blockchain innovante et fiable, assurant transparence et confiance pour acheteurs et vendeurs.
                 </h2>
