@@ -8,10 +8,26 @@ export const LatestNews = () => {
                 <h1>Our latest < br/> news.</h1>
                 <div className='containerLatest__menu'>
                     <ul>
-                        <li>all</li>
-                        <li>cases</li>
-                        <li>news</li>
-                        <li>testimony</li>
+                        <li>
+                            <a>
+                                all
+                            </a>
+                        </li>
+                        <li>
+                            <a>
+                                cases
+                            </a>
+                        </li>
+                        <li>
+                            <a>
+                                news
+                            </a>
+                        </li>
+                        <li>
+                            <a>
+                                testimony
+                            </a>
+                        </li>
                     </ul>
                 </div>
                 <div className='containerLatest__blog'>
