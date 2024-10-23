@@ -1,0 +1,23 @@
+@import '../../../../style/settings.scss';
+
+.containerCard{
+    &__image{
+        .image__card{
+            width: 195px;
+            height: 143px;
+            object-fit: cover;
+            margin-bottom: 16px;
+        }
+    }
+    &__info{
+        display: flex;
+        justify-content: space-between;
+        &__highlight{
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+        }
+    }
+}
+
+

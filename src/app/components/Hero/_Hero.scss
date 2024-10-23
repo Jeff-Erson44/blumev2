@@ -2,8 +2,8 @@
 
 .containerHero{
     &__highlighText{
-        margin-top: 100px;
-        grid-column: 1/7;
+        margin: 100px 0;
+        grid-column: 1/8;
         gap: 36px;
         display: flex;
         flex-direction: column;

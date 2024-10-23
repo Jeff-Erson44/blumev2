@@ -1,0 +1,26 @@
+@import '../../../style/settings.scss';
+
+.containerLatest {
+    grid-column: 1 / -1;
+    @include grille;
+    h1 {
+        @include title;
+        margin-bottom: 2rem;
+        grid-column: span 3;
+    }
+    &__menu {
+        grid-column: 1 / 5;
+        
+        ul {
+            li {
+                margin-bottom: 8px;
+                opacity: .5;
+            }
+        }
+    }
+    &__blog{
+        grid-column: span 8;
+        display: flex;
+        justify-content: space-around;
+    }
+}

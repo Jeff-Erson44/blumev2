@@ -8,3 +8,17 @@
         line-height: 2.75rem;
     }
 }
+
+@mixin grille {
+    display: grid; 
+    grid-template-columns: repeat(12, 1fr); 
+    grid-gap: 24px;
+    @media screen and (max-width: 475px) {
+        display: grid; 
+        grid-template-columns: repeat(4, 1fr); 
+        grid-gap: 16px;
+    }
+}
+
+
+
