@@ -5,9 +5,9 @@
     @include grille;
     margin-bottom: 150px;
     h1 {
-        @include title;
+        font-size: 3.5rem;
         margin-bottom: 2rem;
-        grid-column: span 3;
+        grid-column: span 12;
     }
     &__menu {
         grid-column: 1 / 5;        

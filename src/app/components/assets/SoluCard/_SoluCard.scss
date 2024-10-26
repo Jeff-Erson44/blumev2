@@ -1,0 +1,56 @@
+@import '../../../../style/settings.scss';
+
+.containerSolutionCard{
+    display: flex;
+    justify-content: space-between;
+    grid-column: 2/-2;
+    .card{
+        background: #E7E7E780;
+        padding: 1rem;
+        border-radius: 8px;
+        width: 310px;
+    }
+    .number{
+        border: 1px solid black;
+        width: fit-content;
+        padding: 4px 12px;
+        border-radius: 18px;
+        margin-bottom: 32px;
+    }
+    .title{
+        font-size: 1.25rem;
+        margin-bottom: 16px;
+        text-align: left;
+    }
+}
+
+@media screen and (min-width: 1441px) {
+    .containerSolutionCard{
+        padding: 2rem;
+    }
+}
+
+@media screen and (max-width: 475px) {
+    .containerSolutionCard{
+        grid-column: 1/-1;
+        overflow-y: scroll;
+        display: flex;
+        gap: 32px;
+        .card{
+            border-radius: 8px;
+            min-width: 270px;
+        }
+        .number{
+            border: 1px solid black;
+            width: fit-content;
+            padding: 4px 12px;
+            border-radius: 18px;
+            margin-bottom: 32px;
+        }
+        .title{
+            font-size: 1.25rem;
+            margin-bottom: 16px;
+            text-align: left;
+        }
+    }
+}
