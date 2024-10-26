@@ -1,0 +1,54 @@
+@import '../../../style/settings.scss';
+
+.containerBanner{
+    position: relative;
+    left: 0!important;
+    width: 100%;
+    margin-left: -150px;
+    @include grille;
+    grid-column: 1/-1;
+    padding: 50px 150px 50px;
+    background: #E7E7E740;
+    h1{
+        grid-column: span 12;
+        font-size: 3.5rem;
+        margin-bottom: 32px;
+    }
+    &__highlight{
+        grid-column: 1/-1;
+        @include grille;
+        align-items: center;
+        img{
+            grid-column: 1/4;
+        }
+        &__info{
+            display: flex;
+            flex-direction: column;
+            grid-column: span 9;
+            gap: 2rem;
+            p{
+                line-height: 24px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 475px) {
+    .containerBanner{
+        width: 100%;
+        margin-left: -32px;
+        padding: 50px 32px 50px;
+        display: block;
+        h1{
+            font-size: 2rem;
+            margin-bottom: 50px;
+        }
+        &__highlight{
+            img{
+                display: none;
+            }
+        }
+    }
+}
+
+

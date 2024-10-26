@@ -1,4 +1,4 @@
-import { Button } from '../Button/Button'
+import { Button } from '../assets/Button/Button';
 import './_Hero.scss'
 import Spline from '@splinetool/react-spline';
 

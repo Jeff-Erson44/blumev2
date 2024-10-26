@@ -1,4 +1,4 @@
-import { Button } from '../Button/Button'
+import { Button } from '../assets/Button/Button'
 import './_Navbar.scss'
 import Link from "next/link"
 

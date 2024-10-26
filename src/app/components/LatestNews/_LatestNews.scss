@@ -3,6 +3,7 @@
 .containerLatest {
     grid-column: 1 / -1;
     @include grille;
+    margin-bottom: 150px;
     h1 {
         @include title;
         margin-bottom: 2rem;
@@ -17,7 +18,7 @@
             li {
                 a{
                     margin-bottom: 8px;
-                    opacity: .5;
+                    opacity:.5;
                     cursor: pointer;
                 }
             }
@@ -26,7 +27,7 @@
     &__blog{
         grid-column: span 8;
         display: flex;
-        justify-content: space-around;
+        justify-content: space-between;
     }
 }
 
