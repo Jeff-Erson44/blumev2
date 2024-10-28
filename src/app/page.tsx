@@ -1,4 +1,5 @@
 import { Banner } from "./components/Banner/Banner";
+import { Garanti } from "./components/Garanti/Garanti";
 import { Hero } from "./components/Hero/Hero";
 import { LatestNews } from "./components/LatestNews/LatestNews";
 import { Navbar } from "./components/Navbar/Navbar";
@@ -12,6 +13,7 @@ export default function Home() {
       <LatestNews />
       <Banner />
       <Solution />
+      <Garanti />
     </>
   );
 }

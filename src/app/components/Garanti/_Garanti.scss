@@ -1,0 +1,58 @@
+@import '../../../style/settings.scss';
+
+.containerGaranti{
+    @include grille;
+    grid-column: 1/-1;
+    position: relative;
+    left: 0!important;
+    width: 100%;
+    margin-left: -150px;
+    padding: 50px 150px 50px;
+    background: #E7E7E740;
+    margin-bottom: 150px;
+    h1{
+        font-size: 4rem;
+        grid-column: span 12;
+    }
+    &__highlight{
+        @include grille;
+        grid-column: 1/-1;
+        align-items: center;
+        &__text{
+            grid-column: 1/8;
+            p{
+                line-height: 24px;
+                margin-bottom: 50px;
+            }
+        }
+        img {
+            grid-column: 9 / -1; 
+            align-self: center; 
+            justify-self: end; 
+        }
+    }
+}
+
+
+@media screen and (max-width: 475px){
+    .containerGaranti{
+        width: 100%;
+        margin-left: -32px;
+        padding: 50px 32px 50px;
+        display: block;
+        h1{
+            font-size: 1.75rem;
+            margin-bottom: 50px;
+        }
+        &__highlight{
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: column-reverse;
+            img{
+                width: 320px;
+                height: 280px;
+                margin-bottom: 32px;
+            }
+        }
+    }
+}
