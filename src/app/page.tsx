@@ -3,6 +3,7 @@ import { Garanti } from "./components/Garanti/Garanti";
 import { Hero } from "./components/Hero/Hero";
 import { LatestNews } from "./components/LatestNews/LatestNews";
 import { Navbar } from "./components/Navbar/Navbar";
+import { Partner } from "./components/Partner/Partner";
 import { Solution } from "./components/Solution/Solution";
 
 export default function Home() {
@@ -14,6 +15,7 @@ export default function Home() {
       <Banner />
       <Solution />
       <Garanti />
+      <Partner />
     </>
   );
 }

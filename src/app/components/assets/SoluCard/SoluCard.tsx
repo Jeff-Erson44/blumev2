@@ -1,6 +1,7 @@
 import { SolutionCard } from '@/data/SolutionCard.data'
 import './_SoluCard.scss' 
 
+
 export const SoluCard = () => {
     return (
         <div className="containerSolutionCard">

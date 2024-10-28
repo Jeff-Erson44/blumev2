@@ -2,6 +2,9 @@
 
 .containerSolution{
     grid-column: 1/-1;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
     &__highlight{
         @include grille;
         h1{
@@ -18,11 +21,17 @@
     &__card{
         @include grille;
         grid-column: 2/-2;
+        margin-bottom: 50px;
+    }
+    .btn{
+        align-self: center;
     }
 }
 
 @media screen and (max-width: 475px) {
     .containerSolution{
+        display: flex;
+        flex-direction: column;
         &__highlight{
             display: flex;
             flex-direction: column;

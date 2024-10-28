@@ -1,3 +1,4 @@
+import { Button } from '../assets/Button/Button'
 import { SoluCard } from '../assets/SoluCard/SoluCard'
 import './_Solution.scss'
 
@@ -11,6 +12,9 @@ export const Solution = () => {
             <div className='containerSolution__card'>
                 <SoluCard />
             </div>
+            <Button 
+                text="En savoir plus"
+            />
         </section>
     )
 } 

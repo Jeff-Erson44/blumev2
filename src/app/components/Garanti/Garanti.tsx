@@ -16,8 +16,8 @@ export const Garanti= () => {
                 <Image 
                     src="/image/bag.png"
                     alt=""
-                    width={410}
-                    height={330}
+                    width={360}
+                    height={300}
                 />
             </div>
         </section>

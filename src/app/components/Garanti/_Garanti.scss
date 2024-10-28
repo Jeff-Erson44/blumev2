@@ -40,6 +40,7 @@
         margin-left: -32px;
         padding: 50px 32px 50px;
         display: block;
+        margin-bottom: 100px;
         h1{
             font-size: 1.75rem;
             margin-bottom: 50px;
@@ -48,6 +49,12 @@
             display: flex;
             flex-wrap: wrap;
             flex-direction: column-reverse;
+            &__text{
+                p{
+                    font-size: 14px;
+                    line-height: 22px;
+                }
+            }
             img{
                 width: 320px;
                 height: 280px;
